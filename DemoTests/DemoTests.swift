@@ -16,7 +16,6 @@ class DemoTests: XCTestCase {
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
@@ -61,13 +60,6 @@ class DemoTests: XCTestCase {
         // Loop until the expectation is fulfilled in onDone method
         waitForExpectationsWithTimeout(5)  { error in
             XCTAssertNil(error, "Oh, we got timeout")
-        }
-    }
-
-    func _testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
         }
     }
 }

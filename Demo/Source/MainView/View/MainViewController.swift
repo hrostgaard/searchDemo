@@ -96,6 +96,7 @@ class MainViewController: UIViewController {
         searchField.autocapitalizationType = .None
         searchField.returnKeyType = .Done
 
+        //Add rounded border
         searchField.layer.borderColor = UIColor.lightGrayColor().CGColor
         searchField.layer.borderWidth = 2.0
         searchField.layer.cornerRadius = 20.0
@@ -122,7 +123,6 @@ class MainViewController: UIViewController {
 
         tableView.separatorStyle = .None
         tableView.backgroundColor = UIColor.clearColor()
-
         tableView.estimatedRowHeight = 40.0
         tableView.rowHeight = UITableViewAutomaticDimension
 

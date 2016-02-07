@@ -46,11 +46,10 @@ class DemoPresenterTests: XCTestCase {
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
 
-    //This func validate that the info is updated when viewIsReady is called from 'view'
+    //This validate that the info is updated when viewIsReady is called from 'view'
     func testViewIsReady() {
         let expectation = expectationWithDescription("Search for some result")
 
@@ -68,7 +67,7 @@ class DemoPresenterTests: XCTestCase {
         }
     }
 
-    //This func validate that the info is updated when searchInputUpdated before an location is set
+    //This validate that the info is updated when searchInputUpdated before an location is set
     func testSearchWithoutLocation() {
         let expectation = expectationWithDescription("Search for some result")
 
@@ -86,7 +85,7 @@ class DemoPresenterTests: XCTestCase {
         }
     }
 
-    //This func validate that the data is as expected after a search
+    //This validate that the data is as expected after a search
     func testSearch() {
         let expectation = expectationWithDescription("Search for some result")
 
